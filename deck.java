@@ -10,9 +10,9 @@ public class deck {
         cards = new ArrayList<>(); 
         createDeck();
     }
-    
     //o metodo createDeck cria 2 arrays um para guardar os naipes e outro para guardar os valores das cartas,
     //e depois cria um loop que vai criar todas as combinações de naipes e valores e adicionar ao array cards
+
     private void createDeck() {
         ArrayList<String> suits = new ArrayList<>();
         ArrayList<Integer> values = new ArrayList<>();
